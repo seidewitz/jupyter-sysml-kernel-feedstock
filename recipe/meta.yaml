@@ -1,6 +1,6 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set version = "2021-03a" %}
-{% set sha256 = "2d6c93694dc86780ebd18eadacf6fe7aabd84d24d1376dd06b0152584005c394" %}
+{% set version = "2021-05" %}
+{% set sha256 = "81a976d78e0714b2f43f43b622df6928e603bea54b02bec02400dbc2856812bd" %}
 
 package:
   name: {{ name|lower }}
