@@ -1,13 +1,14 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set version = "2021-05a" %}
-{% set sha256 = "c090d0bceb3a0207d0ad4841d4535f459f9be71c79036c773130bc9fdec64fc8" %}
+{% set semver = "0.14.1" %}
+{% set calver = "2021-06.1" %}
+{% set sha256 = "fed6ad8a60c13773be39938596f5d5807bf131080728a1019b9f861e95854766" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version | replace("-", ".") }}
+  version: {{ semver }}
 
 source:
-  url: https://jitpack.io/com/github/Systems-Modeling/SysML-v2-Pilot-Implementation/{{ name }}/{{ version }}/{{ name }}-{{ version }}.zip
+  url: https://jitpack.io/com/github/Systems-Modeling/SysML-v2-Pilot-Implementation/{{ name }}/{{ calver }}/{{ name }}-{{ calver }}.zip
   sha256: {{ sha256 }}
 
 build:
