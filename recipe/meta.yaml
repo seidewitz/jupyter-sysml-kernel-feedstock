@@ -1,7 +1,7 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set semver = "0.22.0" %}
-{% set calver = "2022-03" %}
-{% set sha256 = "30e8dde752c7cdee53461a7a687eeeed7627335666c4db6ee1d29dc518f8a1a7" %}
+{% set semver = "0.22.1" %}
+{% set calver = "2022-03.1" %}
+{% set sha256 = "5a286dfd771debacf7a372e45f0bd80b4265f9dd9df9c24857e017297166661e" %}
 
 package:
   name: {{ name|lower }}
