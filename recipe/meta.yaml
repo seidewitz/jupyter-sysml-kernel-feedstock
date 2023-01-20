@@ -1,7 +1,7 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set semver = "0.30.0" %}
-{% set calver = "2022-11" %}
-{% set sha256 = "2ec15bf641d62c9fd62986a468efc78c05e0b4d87a16452d3c5e82ec5649db31" %}
+{% set semver = "0.31.0" %}
+{% set calver = "2022-12" %}
+{% set sha256 = "399390d54dc570d2a116e4ed464477d93a1e650baaf12fd53b5a0fe29a29a175" %}
 
 package:
   name: {{ name|lower }}
@@ -49,3 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - ivan-gomes
+    - seidewitz
