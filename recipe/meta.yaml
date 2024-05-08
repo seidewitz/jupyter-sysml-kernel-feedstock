@@ -1,7 +1,7 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set semver = "0.40.0" %}
-{% set calver = "2024-03" %}
-{% set sha256 = "17ee8916dd804b45eb0886e266e2e3107e8140ea7d15077d5304bca579bfffcc" %}
+{% set semver = "0.41.0" %}
+{% set calver = "2024-04" %}
+{% set sha256 = "32c7f7407c04d84fb5da1cd4f89580eb031871dc4ab8c56f5510e8f020fa2dfa" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
   run:
     - graphviz
     - jupyter_client
-    - openjdk >=11
+    - openjdk >=17
     - python >=3.6
 
 test:
