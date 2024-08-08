@@ -1,7 +1,7 @@
 {% set name = "jupyter-sysml-kernel" %}
-{% set semver = "0.42.0" %}
-{% set calver = "2024-05" %}
-{% set sha256 = "2f70cbc2434f7cdb27ebe2ee0b8a5b6017d90d9c41e53d6e46d87d3e76437c81" %}
+{% set semver = "0.43.0" %}
+{% set calver = "2024-07" %}
+{% set sha256 = "c20f89dd26dfdba5e87d86faf14f9c5737f600ac6b4d606ba74285d64626bb1b" %}
 
 package:
   name: {{ name|lower }}
@@ -39,6 +39,7 @@ about:
   license_family: LGPL
   license_file: 
     - LICENSE
+    - LICENSE-GPL
   summary: 'SysML v2 Kernel for Jupyter'
   description: |
     An interactive SysML v2 shell and Jupyter kernel to work with
