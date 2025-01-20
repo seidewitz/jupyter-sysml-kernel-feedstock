@@ -13,22 +13,23 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} ./install.py --api-base-path=http://sysml2.intercax.com:9000 --sys-prefix
 
 requirements:
   host:
     - jupyter_client
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - graphviz
     - jupyter_client
     - openjdk >=17
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   requires:
     - jupyter_client
+    - python {{ python_min }}
   commands:
     - conda list {{ name }}
     - jupyter kernelspec list
